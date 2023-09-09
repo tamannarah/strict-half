@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+h1, h2, h3, h4, h5, h6, ul,p{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    background-color: #f6f9f9;
+    padding: 20px 0;
+
+}
+.header_wraper{
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: end;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.logo{
+
+    width: 20%;
+}
+nav{
+    width: 50%;
+   
+} 
+nav ul{
+ display: flex;
+ justify-content: end;
+ list-style: none;
+    
+
+}
+nav ul li{
+
+}
+nav ul li a{
+    margin-left: 25px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 18px;
+    color: #333;
+
+}
+.banner{
+    background-image: url(../images/bannet.png);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    position: relative;
+    
+
+
+}
+.banner_wraper{
+    position: absolute;
+    width: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    c
+    
+
+}
+.banner_wraper h1{
+    font-size: 80px;
+    text-transform: uppercase;
+    line-height: 100px;
+    color: #fff;
+
+   
+
+}
+.banner_wraper span{
+    display: block;
+    height: 2px;
+    width:100%;
+    background-color: #15a4fa;
+    
+
+}
+.banner_wraper p{
+    margin: 30px 0;
+    font-size: 14px;
+    color: #fff;
+
+}
+.banner_wraper button{
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    border: 1px solid #15a4fa;
+    cursor: pointer;
+    border-radius:3px ;
+    transition: .4s all ease-in-out ;
+
+}
+.banner_wraper button a{
+    text-decoration: none;
+    color: #fff;
+}
+.banner_wraper button:hover{
+    background-color: #15a4fa;
+    
+}
+.text{
+    width: 100%;
+    background-color:#f6f9f9 ;
+    padding: 60px 0;
+
+}
+.text_wraper{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.text_wraper h2{
+    font-size: 30px;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+    color: #2d3950;
+
+}
+.text_wraper p{
+    font-size: 18px;
+    padding-bottom: 20px;
+    color: #999999;
+
+}
+.feature_section{
+    width: 100%;
+
+}
+.feature_wraper{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.feature{
+    width: 30%;
+    text-align: center;
+    padding: 60px 0;
+
+}
+.feature .icon_box{
+    width: 70px;
+    height: 70px;
+   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#48baff+0,48baff+50,5fc3ff+50,5fc3ff+50,5fc3ff+98 */
+background: linear-gradient(to right,  rgba(72,186,255,1) 0%,rgba(72,186,255,1) 50%,rgba(95,195,255,1) 50%,rgba(95,195,255,1) 50%,rgba(95,195,255,1) 98%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    margin: auto;
+    font-size: 25px;
+    color: #fff;
+
+}
+.feature h3{
+    padding: 15px 0;
+    color: #2d3950;
+
+}
+.feature p{
+    color: #999999;
+
+}
+.portfolio{
+    width: 100%;
+    background-color: #f6f9f9;
+    padding: 60px 0;
+
+}
+.wraper{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+
+}
+.wraper h1{
+    color: #2d3950; 
+    font-size: 30px;
+    padding-bottom: 20px;
+
+}
+.wraper p{
+    color: #999999;
+    font-size: 12px;
+    padding-bottom: 50px;
+
+} 
+.portfolio_item{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.design{
+    width: 32%;
+    margin-bottom: 10px;
+    position: relative;
+
+}
+.design::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 0;
+    top: 0;
+    left: 0;
+    background-color: #2bacfa;
+    opacity: 0;
+    transition: .4s all ease-in-out;
+    
+
+}
+.design:hover::after{
+    opacity: .9;
+    width: 100%;
+}
+.design img{
+    width: 100%;
+}
+ 
